@@ -112,10 +112,10 @@ public class DepartmentFormController implements Initializable{
 	
 	@Override
 	public void initialize(URL url, ResourceBundle rb) {
-		initializeNode();
+		initializeNodes();
 	}
 	
-	private void initializeNode() {
+	private void initializeNodes() {
 		Constraints.setTextFieldDouble(txtId);
 		Constraints.setTextFieldMaxLength(txtName, 30);
 	}
