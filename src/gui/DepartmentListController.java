@@ -2,13 +2,11 @@ package gui;
 
 import java.io.IOException;
 import java.net.URL;
-import java.sql.SQLException;
 import java.util.List;
 import java.util.Optional;
 import java.util.ResourceBundle;
 
 import application.Main;
-import db.DBIntegrityException;
 import db.DbException;
 import gui.listeners.DataChangeListener;
 import gui.util.Alerts;
